@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {% block title %}
-    <title>Sensive Blog - Home</title>
+      <title>Sensive Blog - Home</title>
     {% endblock %}
     <link rel="icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="{% static 'styles.min.css' %}">
@@ -46,11 +46,9 @@
   <main class="site-main">
 
 <!--================ Start Content Here =================-->  
+    {% block content %}
 
-  {% block content %}
-
-  {% endblock %}
-
+    {% endblock %}
 <!--================ End Content Here =================-->  
 
 <!--================ Start Footer Area =================-->
